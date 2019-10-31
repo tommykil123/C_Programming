@@ -1,0 +1,10 @@
+Code Review:
+1. Error Handling is exaustive
+2. Naming the variables are pretty good
+3. Even though the main function is good, the comments helped in reading
+
+Constructive Criticism:
+1. Redundancy in code (for loop implemetation)
+2. Making fuction to modularize it
+
+Thank you
