@@ -1,0 +1,4 @@
+struct world_t {
+    agent_t runner;
+    agent_t chaser;
+}

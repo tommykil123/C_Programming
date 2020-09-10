@@ -1,12 +1,19 @@
 #pragma once
-
 #include <stdbool.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include "hashfunction.h"
+#define LOAD_FACTOR 0.5
 
 typedef struct hashtable hashtable_t;
 
-hashtable_t *hashtable_create(void);
+int nth_power_of_two(int number);
+hashtable_t *hashtable_create(int entry_size);
 void hashtable_destroy(hashtable_t *ht);
-
+void rehash(hashtable_t *ht, char *key, int value);
+void print_table(hashtable_t *ht);
+int count_collisions(hashtable_t *ht);
 // Inserts or modifies the value associated with key
 void hashtable_set(hashtable_t *ht, char *key, int value);
 

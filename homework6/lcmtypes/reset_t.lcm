@@ -1,0 +1,3 @@
+struct reset_t {
+    int32_t initial_runner_idx;
+}

@@ -12,7 +12,7 @@ typedef struct test_entry {
     int n;
 } test_entry_t;
 
-void evaluate_hash_reduce(int n_entries, test_entry_t *entries, bool fast_mode,
+void evaluate_hash_reduce(int n_entries, test_entry_t *entries,
                           uint32_t (*hash_f)(uint8_t *, int), uint32_t (*reduce_f)(uint32_t)) {
     clock_t start = clock();
     int collisions = 0;

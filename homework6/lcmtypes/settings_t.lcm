@@ -1,0 +1,9 @@
+struct settings_t {
+    int32_t initial_runner_idx;
+    int32_t delay_every;
+    double to_goal_magnitude;
+    int32_t to_goal_power;
+    double avoid_obs_magnitude;
+    int32_t avoid_obs_power;
+    double max_vel;
+}

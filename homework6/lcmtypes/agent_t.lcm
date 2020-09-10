@@ -1,0 +1,8 @@
+struct agent_t {
+    boolean is_runner;
+    double x;
+    double y;
+    double theta;
+    double vel;
+    double ang_vel;
+}

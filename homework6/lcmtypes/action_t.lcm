@@ -1,0 +1,4 @@
+struct action_t {
+    double vel;
+    double ang_vel;
+}

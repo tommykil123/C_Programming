@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "gui_graphics.h": "c",
+        "action_t.h": "c",
+        "init.h": "c"
+    }
+}
